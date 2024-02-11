@@ -1,4 +1,5 @@
 import { useState } from "react"
+import MovieDetails from "./MovieDetails"
 
 function Form() {
     const [searchTerm, setSearchTerm] = useState('')
@@ -20,6 +21,8 @@ function Form() {
                     Submit
                 </button>
             </form>
+
+            <MovieDetails searchTerm={searchTerm} />
         </section>
     )
 }
