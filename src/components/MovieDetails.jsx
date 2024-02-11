@@ -21,9 +21,9 @@ function MovieDetails({ searchTerm }) {
   getData()
 
   return (
-    <div>
+    <section className="section-details">
       <h1>Movie Details</h1>
-    </div>
+    </section>
   )
 }
 

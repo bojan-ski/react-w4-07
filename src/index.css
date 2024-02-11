@@ -3,3 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+main{
+  height: 100vh;
+}
+
+.section-form{
+  margin: 0 auto;
+}
+
